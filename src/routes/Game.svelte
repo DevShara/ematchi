@@ -1,5 +1,9 @@
 <script>
 	import Grid from './Grid.svelte';
+
+	let size;
+	let grid = [];
+	let found = [];
 </script>
 
 <div class="game">
